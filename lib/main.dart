@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:layout_part_1/page/latihanappbar.dart';
+import 'package:layout_part_1/page/layout_pertama.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatihanAppbar(),
+      home: LayoutPertama(),
     );
   }
 }
